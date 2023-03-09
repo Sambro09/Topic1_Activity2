@@ -12,9 +12,9 @@ namespace Topic1_Activity2
             double celsius = double.Parse(celsiusInput.Text);
 
             //formula (0°C × 9/5) + 32 = 32°F
-            double farenhiet = (celsius * 9 / 5) + 32;
+            double fahrenhiet = (celsius * 9 / 5) + 32;
 
-            farenhietOutput.Text = farenhiet.ToString();
+            fahrenhietOutput.Text = fahrenhiet.ToString();
         }
     }
 }

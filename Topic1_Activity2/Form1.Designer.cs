@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            farenhietLabel = new Label();
+            fahrenhietLabel = new Label();
             celsiusLabel = new Label();
             celsiusInput = new TextBox();
-            farenhietOutput = new Label();
+            fahrenhietOutput = new Label();
             convertButton = new Button();
             SuspendLayout();
             // 
-            // farenhietLabel
+            // fahrenhietLabel
             // 
-            farenhietLabel.AutoSize = true;
-            farenhietLabel.Location = new Point(176, 115);
-            farenhietLabel.Name = "farenhietLabel";
-            farenhietLabel.Size = new Size(88, 20);
-            farenhietLabel.TabIndex = 0;
-            farenhietLabel.Text = "Output in F°";
+            fahrenhietLabel.AutoSize = true;
+            fahrenhietLabel.Location = new Point(176, 115);
+            fahrenhietLabel.Name = "fahrenhietLabel";
+            fahrenhietLabel.Size = new Size(88, 20);
+            fahrenhietLabel.TabIndex = 0;
+            fahrenhietLabel.Text = "Output in F°";
             // 
             // celsiusLabel
             // 
@@ -60,14 +60,14 @@
             celsiusInput.Size = new Size(125, 27);
             celsiusInput.TabIndex = 2;
             // 
-            // farenhietOutput
+            // fahrenhietOutput
             // 
-            farenhietOutput.BackColor = SystemColors.Window;
-            farenhietOutput.BorderStyle = BorderStyle.FixedSingle;
-            farenhietOutput.Location = new Point(280, 107);
-            farenhietOutput.Name = "farenhietOutput";
-            farenhietOutput.Size = new Size(125, 28);
-            farenhietOutput.TabIndex = 3;
+            fahrenhietOutput.BackColor = SystemColors.Window;
+            fahrenhietOutput.BorderStyle = BorderStyle.FixedSingle;
+            fahrenhietOutput.Location = new Point(280, 107);
+            fahrenhietOutput.Name = "fahrenhietOutput";
+            fahrenhietOutput.Size = new Size(125, 28);
+            fahrenhietOutput.TabIndex = 3;
             // 
             // convertButton
             // 
@@ -85,22 +85,22 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(559, 291);
             Controls.Add(convertButton);
-            Controls.Add(farenhietOutput);
+            Controls.Add(fahrenhietOutput);
             Controls.Add(celsiusInput);
             Controls.Add(celsiusLabel);
-            Controls.Add(farenhietLabel);
+            Controls.Add(fahrenhietLabel);
             Name = "Form1";
-            Text = "Celsius to Farenhiet";
+            Text = "Celsius to Fahrenhiet";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label farenhietLabel;
+        private Label fahrenhietLabel;
         private Label celsiusLabel;
         private TextBox celsiusInput;
-        private Label farenhietOutput;
+        private Label fahrenhietOutput;
         private Button convertButton;
     }
 }
